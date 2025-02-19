@@ -169,3 +169,22 @@ body {
     margin-left: 37.25%;
     padding-bottom: 2%;
 }
+
+
+.adaptive{ 
+}
+.adaptive > * {
+}
+
+@media(max-width: 1200px){
+    
+}
+@media(max-width: 1000px){
+    
+}
+@media(max-width: 768px){
+    
+}
+@media(max-width: 480px){
+    
+}
