@@ -13,9 +13,6 @@ body {
     flex-wrap: wrap;
 }
 
-#col1 {
-    padding-left: 50%;
-}
 
 .Dragon {
     background-color: rgba(83, 83, 83, 0.975);
@@ -57,4 +54,20 @@ h3 {
 
 .col-3 {
     background-color: rgba(83, 83, 83, 0.975);
+}
+
+#skills-left {
+    margin-top: 2%;
+}
+
+#skills-right{
+    margin-top: 2%;
+}
+
+#skills-right-down{
+    margin-top: 2%;
+}
+
+#skills-left-down{
+    margin-top: 2%;
 }
