@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Регистрация</title>
+<style>
+  body {
+    background-color: #f9f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .card {
+    background: white;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(255, 192, 203, 0.5);
+    border: 1px solid #e5b4b4;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    box-shadow: 0 0 30px rgba(255, 105, 180, 0.7);
+  }
+
+  h1 {
+    text-align: center;
+    color: #b76e79; /* оттенок розового золота */
+  }
+
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #e5b4b4;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+
+  input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #ff69b4;
+    box-shadow: 0 0 8px rgba(255, 20, 147, 0.6);
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #b76e79;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  button:hover {
+    background-color: #d88c9a;
+  }
+  
+</style>
+</head>
+<body>
+
+<div class="card">
+  <strong><h1>Регистрация</h1></strong>
+  <form>
+    <input type="text" placeholder="Имя" required>
+    <input type="email" placeholder="Email" required>
+    <input type="password" placeholder="Пароль" required>
+    <button type="submit">Зарегистрироваться</button>
+  </form>
+</div>
+
+</body>
+</html>
